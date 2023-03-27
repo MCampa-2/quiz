@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(110, 169, 205);
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 4rem;
+    color: white;
+}
+
+.quiz{
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+}
+
+.questions{
+    padding: 7px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+form .questions label{
+    font-weight: bold;
+}
+
+form button{
+    padding: 3px;
+}
+
+
+@media(max-width: 600px){
+    h1{
+        font-size: 2rem;
+    }
+
+    form{
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .quiz{
+        width: 90%;
+    }
+
+    .quiz label{
+        font-size: .9rem;
+    }
+
+    
+}
+
+
+
